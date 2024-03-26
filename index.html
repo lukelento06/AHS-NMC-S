@@ -1,0 +1,36 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <main class="wrapper" style="padding-top:2em">
+
+        <section class="container" id="demo-content"></section>
+          <div>
+            <a class="button" id="startButton">Scan</a>
+          </div>
+    
+          <div>
+            <video id="video" width="300" height="200" style="border: 1px solid gray"></video>
+          </div>
+    
+          <div id="sourceSelectPanel" style="display:none">
+            <label for="sourceSelect">Change video source:</label>
+            <select id="sourceSelect" style="max-width:400px">
+            </select>
+          </div>
+    
+          <label>Result:</label>
+          <pre><code id="result"></code></pre>
+    
+        </section>
+    
+      </main>
+    </body>
+</html>
